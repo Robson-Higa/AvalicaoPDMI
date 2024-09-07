@@ -2,8 +2,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import HomeScreen from './src/pages/HomeScreen';
-import ProfileScreen from './src/pages/ProfileScreen';
-import SettingsScreen from './src/pages/SettingsScreen';
+import AreaScreen from './src/pages/AreaScreen';
+import CombustivelScreen from './src/pages/CombustivelScreen';
+import EditorScreen from './src/pages/EditorScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -17,25 +18,21 @@ export default function App() {
           options={{ headerShown: false }}
         />
         <Tab.Screen 
-          name="Profile" 
-          component={ProfileScreen} 
+          name="Area" 
+          component={AreaScreen} 
           options={{ headerShown: false }}
         />
         <Tab.Screen 
-          name="Settings" 
-          component={SettingsScreen} 
+          name="Combustivel" 
+          component={CombustivelScreen} 
           options={{ headerShown: false }}
         />
         <Tab.Screen 
-          name="fff" 
-          component={SettingsScreen} 
+          name="Editor" 
+          component={EditorScreen} 
           options={{ headerShown: false }}
         />
-         <Tab.Screen 
-          name="gggg" 
-          component={SettingsScreen} 
-          options={{ headerShown: false }}
-        />
+       
       </Tab.Navigator>
     </NavigationContainer>
   );
