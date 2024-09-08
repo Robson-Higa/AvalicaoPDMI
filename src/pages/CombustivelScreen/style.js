@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     height: "16%",
     paddingStart: 20,
-    backgroundColor: "#3A78C0",
+    backgroundColor: '#49cccc',
   },
   textHeader: {
     fontSize: 32,

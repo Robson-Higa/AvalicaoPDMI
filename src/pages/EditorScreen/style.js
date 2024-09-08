@@ -17,9 +17,11 @@ export const styles = StyleSheet.create({
     borderRadius: 5,
     padding: 10,
     fontSize: 16,
+    
   },
   scrollView: {
     flex: 1,
     marginBottom: 20,
+    
   },
 });

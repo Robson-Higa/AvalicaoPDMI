@@ -43,7 +43,7 @@ export default function EditorScreen() {
           onChangeText={setTexto}
         />
       </ScrollView>
-      <Button title="Salvar Texto" onPress={salvarTexto} />
+      <Button title="Salvar Texto" onPress={salvarTexto} color={'#49cccc'}/>
     </View>
   );
 }
